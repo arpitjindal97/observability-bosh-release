@@ -1,0 +1,5 @@
+set -eu
+
+tar -xzvf prometheus/prometheus-*linux-amd64.tar.gz
+mkdir -p ${BOSH_INSTALL_TARGET}/bin
+cp -a prometheus-*/prometheus ${BOSH_INSTALL_TARGET}/bin

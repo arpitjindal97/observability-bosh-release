@@ -1,0 +1,7 @@
+---
+name: prometheus
+
+dependencies: []
+
+files:
+  - prometheus/prometheus-*linux-amd64.tar.gz

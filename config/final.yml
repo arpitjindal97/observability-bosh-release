@@ -1,4 +1,4 @@
----
+name: observability
 blobstore:
   provider: s3
   options:

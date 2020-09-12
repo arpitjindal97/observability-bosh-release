@@ -1,1 +1,2 @@
-<%= p('opentelemetry.config') %>
+<%= p('opentelemetry.config').to_yaml %>
+

@@ -1,5 +1,12 @@
+#!/usr/bin/env bash
+
 set -eu
 
+# Copy common utils
+mkdir -p ${BOSH_INSTALL_TARGET}/common
+cp -a ${BOSH_COMPILE_TARGET}/common/* ${BOSH_INSTALL_TARGET}/common
+
+# Extract prometheus package
 tar -xzvf prometheus/prometheus-*linux-amd64.tar.gz
 mkdir -p ${BOSH_INSTALL_TARGET}/bin
 cp -a prometheus-*/prometheus ${BOSH_INSTALL_TARGET}/bin

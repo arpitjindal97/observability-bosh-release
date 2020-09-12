@@ -4,4 +4,5 @@ name: prometheus
 dependencies: []
 
 files:
+  - common/utils.sh
   - prometheus/prometheus-*linux-amd64.tar.gz

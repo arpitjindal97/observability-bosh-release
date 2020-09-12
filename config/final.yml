@@ -1,1 +1,6 @@
-name: prometheus-bosh
+---
+blobstore:
+  provider: s3
+  options:
+    bucket_name: observability-blobs
+    region: ap-south-1

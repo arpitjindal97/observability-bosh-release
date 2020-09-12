@@ -1,0 +1,5 @@
+check process opentelemetry
+  with pidfile /var/vcap/sys/run/opentelemetry/opentelemetry.pid
+  start program "/var/vcap/jobs/opentelemetry/bin/opentelemetry_ctl start"
+  stop program "/var/vcap/jobs/opentelemetry/bin/opentelemetry_ctl stop"
+  group vcap

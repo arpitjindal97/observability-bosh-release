@@ -1,0 +1,13 @@
+---
+name: opentelemetry
+
+packages:
+  - opentelemetry
+
+templates:
+  bin/opentelemetry_ctl: bin/opentelemetry_ctl
+  config/otel.yml: config/otel.yml
+
+properties:
+  opentelemetry.config:
+    description: "Full config.yml to be passed"

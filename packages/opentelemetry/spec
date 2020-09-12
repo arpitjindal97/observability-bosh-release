@@ -1,0 +1,7 @@
+---
+name: opentelemetry
+
+dependencies: []
+
+files:
+  - opentelemetry/otelcol-*_linux_amd64

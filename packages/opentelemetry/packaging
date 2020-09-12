@@ -1,0 +1,4 @@
+set -eu
+
+mkdir -p ${BOSH_INSTALL_TARGET}/bin
+cp -a opentelemetry/otelcol-*_linux_amd64 ${BOSH_INSTALL_TARGET}/bin/otelcol

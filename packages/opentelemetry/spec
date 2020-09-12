@@ -5,4 +5,4 @@ dependencies: []
 
 files:
   - common/utils.sh
-  - opentelemetry/otelcol-*_linux_amd64
+  - opentelemetry/otelcol-*.linux_amd64
